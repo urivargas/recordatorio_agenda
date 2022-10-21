@@ -130,3 +130,51 @@ form {
   width: 100%;
   padding: 15px;
 }
+
+.footer{
+  display: flex;
+  background: rgba(62, 161, 219, 1) 11.2%;
+  align-items: center;
+  
+  flex-direction: column;
+  
+  
+}
+
+.footer__social {
+  display: flex;
+  list-style:none;
+  
+  margin: 10px;
+  
+}
+
+.footer__social-icono{
+  margin: 10px;
+}
+
+.footer__texto{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+@media  only screen and (max-width:600px) {
+
+  .mainCard{
+    width: 300px;
+    height: 700px;
+    
+  }
+  form{
+    flex-direction: column;
+    height: 130px;
+  }
+  
+  input, .inputForm{
+    width: 170px;
+  }
+
+  .cardsList{
+    height: 500px;
+  }
+}
